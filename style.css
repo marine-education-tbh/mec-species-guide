@@ -1559,3 +1559,25 @@ footer .tiny{
   }
 
 }
+/* =========================
+   COMPACT ANGSANA LOGO
+   ========================= */
+
+.logo img,
+.brand-logo img,
+.header-logo img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+
+/* Keep the logo container compact */
+.logo,
+.brand-logo,
+.header-logo {
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
