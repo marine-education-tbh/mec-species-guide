@@ -983,9 +983,13 @@ footer .tiny{
     gap:7px;
   }
 
+  .logo-badge{
+    padding:6px 10px;
+    border-radius:13px;
+  }
+
   .angsana-logo{
-    width:46px;
-    height:46px;
+    width:105px;
   }
 
   .brand-text strong{
