@@ -956,6 +956,28 @@ footer .tiny{
 
   }
 
+} 
+@media(max-width:600px){
+
+  .brand{
+    left:14px;
+    top:14px;
+    gap:7px;
+  }
+
+  .angsana-logo{
+    width:46px;
+    height:46px;
+  }
+
+  .brand-text strong{
+    font-size:.82rem;
+  }
+
+  .brand-text span{
+    font-size:.58rem;
+  }
+
 }
 
 /* =========================================
