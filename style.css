@@ -970,29 +970,36 @@ footer .tiny{
   }
 
 } 
-@media(max-width:600px){
+/* =========================
+   MOBILE BRAND
+   ========================= */
+
+@media (max-width: 600px){
 
   .brand{
-    left:14px;
-    top:14px;
+    left:12px;
+    top:12px;
     gap:7px;
   }
 
   .logo-badge{
-    padding:6px 10px;
+    width:58px;
+    height:58px;
     border-radius:13px;
   }
 
   .angsana-logo{
-    width:105px;
+    width:49px;
+    height:49px;
   }
 
   .brand-text strong{
-    font-size:.82rem;
+    font-size:.78rem;
   }
 
   .brand-text span{
-    font-size:.58rem;
+    font-size:.52rem;
+    margin-top:3px;
   }
 
 }
