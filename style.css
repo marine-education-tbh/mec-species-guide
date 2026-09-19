@@ -51,55 +51,51 @@ a{color:inherit}
   border-radius:0 0 38px 38px;
   box-shadow:var(--shadow);
 }
-/* =========================================
-   ANGSANA BRANDING
-========================================= */
+/* =========================
+   ANGsana / MEC BRAND
+   ========================= */
 
 .brand{
   position:absolute;
-  left:22px;
-  top:18px;
+  left:18px;
+  top:16px;
 
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:9px;
 
   text-decoration:none;
   color:white;
 
-  z-index:10;
+  z-index:20;
 }
 
+/* Small white background behind the Angsana logo */
 .logo-badge{
+  width:76px;
+  height:76px;
+
   display:flex;
   align-items:center;
   justify-content:center;
 
-  background:rgba(255,255,255,.90);
-
-  padding:8px 14px;
-
+  background:rgba(255,255,255,.96);
   border-radius:16px;
 
   box-shadow:
-    0 5px 18px rgba(0,0,0,.22);
-
-  backdrop-filter:blur(6px);
-  -webkit-backdrop-filter:blur(6px);
+    0 5px 16px rgba(0,0,0,.20);
 }
 
+/* Actual Angsana logo */
 .angsana-logo{
+  width:64px;
+  height:64px;
+
   display:block;
-
-  width:150px;
-  height:auto;
-
   object-fit:contain;
-
-  filter:
-    drop-shadow(0 2px 5px rgba(0,0,0,.12));
 }
 
+/* MEC text beside logo */
 .brand-text{
   display:flex;
   flex-direction:column;
@@ -109,20 +105,19 @@ a{color:inherit}
 }
 
 .brand-text strong{
-  font-size:1rem;
+  font-size:.95rem;
   font-weight:900;
-  letter-spacing:.05em;
+  letter-spacing:.04em;
 }
 
 .brand-text span{
   margin-top:4px;
 
-  font-size:.68rem;
+  font-size:.62rem;
   font-weight:600;
+  letter-spacing:.06em;
 
-  letter-spacing:.08em;
-
-  opacity:.78;
+  opacity:.82;
 }
 .hero-art{height:250px;margin:42px auto 8px;max-width:460px;display:grid;place-items:center;position:relative}
 .hero-art svg{width:100%;height:100%;overflow:visible}
